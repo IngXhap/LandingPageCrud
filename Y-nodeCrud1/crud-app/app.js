@@ -40,7 +40,7 @@ app.use(function(err, req, res, next) {
 });
 
 // Iniciar la aplicación escuchando en todas las IPs (0.0.0.0)
-app.listen(port, 'localhost', () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
 
